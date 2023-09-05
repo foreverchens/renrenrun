@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="run.renren.mapper.ForumCommentMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="run.renren.entity.ForumCommentEntity" id="forumCommentMap">
+        <result property="commentId" column="comment_id"/>
+        <result property="pCommentId" column="p_comment_id"/>
+        <result property="articleId" column="article_id"/>
+        <result property="content" column="content"/>
+        <result property="imgPath" column="img_path"/>
+        <result property="userId" column="user_id"/>
+        <result property="nickName" column="nick_name"/>
+        <result property="userIpAddress" column="user_ip_address"/>
+        <result property="replyUserId" column="reply_user_id"/>
+        <result property="replyNickName" column="reply_nick_name"/>
+        <result property="topType" column="top_type"/>
+        <result property="postTime" column="post_time"/>
+        <result property="goodCount" column="good_count"/>
+        <result property="status" column="status"/>
+    </resultMap>
+
+
+</mapper>

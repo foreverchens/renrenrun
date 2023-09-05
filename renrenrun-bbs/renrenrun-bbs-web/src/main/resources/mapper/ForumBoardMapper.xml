@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="run.renren.mapper.ForumBoardMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="run.renren.entity.ForumBoardEntity" id="forumBoardMap">
+        <result property="boardId" column="board_id"/>
+        <result property="parBoardId" column="par_board_id"/>
+        <result property="boardName" column="board_name"/>
+        <result property="cover" column="cover"/>
+        <result property="boardDesc" column="board_desc"/>
+        <result property="sort" column="sort"/>
+        <result property="postType" column="post_type"/>
+    </resultMap>
+
+
+</mapper>
