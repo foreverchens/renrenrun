@@ -1,4 +1,4 @@
-package run.renren.controller;
+package run.renren.controller.article;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,11 +8,8 @@ import run.renren.service.ForumArticleContentService;
 
 
 /**
- *
- *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2023-09-04 22:14:28
+ * @author yyy
+ * @tg t.me/ychen5325
  */
 @RestController
 public class ForumArticleContentController {
