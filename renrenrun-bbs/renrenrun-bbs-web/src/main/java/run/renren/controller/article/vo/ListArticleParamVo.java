@@ -10,9 +10,10 @@ import javax.validation.constraints.NotNull;
  */
 @Data
 public class ListArticleParamVo {
-	private Integer boardId;
 	@NotNull
+	private Integer boardId;
 	private Integer parBoardId;
+	@NotNull
 	private Integer orderType;
 	private Integer pageNo;
 }
